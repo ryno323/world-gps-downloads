@@ -1,5 +1,9 @@
 # World GPS downloads
 
+**[Download World GPS 1.0.3 for Android — 48.5 MB](https://github.com/ryno323/world-gps-downloads/releases/download/v1.0.3/WorldGPS-1.0.3-Android-update.apk)**
+
+[Release notes and verification](https://github.com/ryno323/world-gps-downloads/releases/tag/v1.0.3). Android test build; 53 automated tests passed.
+
 Android navigation with optional offline country maps and a fishing dashboard.
 
 ## Android app
