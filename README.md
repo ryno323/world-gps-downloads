@@ -1,20 +1,26 @@
 # World GPS downloads
 
-**[Download World GPS 1.0.3 for Android — 48.5 MB](https://github.com/ryno323/world-gps-downloads/releases/download/v1.0.3/WorldGPS-1.0.3-Android-update.apk)**
+**[Download World GPS 1.0.4 for Android - 47.7 MB](https://github.com/ryno323/world-gps-downloads/releases/download/v1.0.4/WorldGPS-1.0.4-Android-update.apk)**
 
-[Release notes and verification](https://github.com/ryno323/world-gps-downloads/releases/tag/v1.0.3). Android test build; 53 automated tests passed.
+[Release notes and verification](https://github.com/ryno323/world-gps-downloads/releases/tag/v1.0.4). Android test build; 59 automated tests passed.
 
 Android navigation with optional offline country maps and a fishing dashboard.
 
 ## Android app
 
-Install the APK attached to an app release in [Releases](https://github.com/ryno323/world-gps-downloads/releases). App updates can be installed over the previous World GPS test build to keep your maps and pins. Test builds are marked as pre-releases; they are not Google Play production releases.
+Install the APK over the previous World GPS test build to keep your maps, pins and journal. Do not uninstall first. Test builds are marked as pre-releases; they are not Google Play production releases.
 
 A fresh installation contains no country maps or road data. Use an internet connection for live maps, search and driving navigation. For offline use, open **Offline Maps**, choose your country and tap **Download**. The app downloads the display map and road package automatically. Wait until maps, search and driving are ready before disconnecting.
 
 ## Fishing
 
-Fishing Conditions opens an overview, forecast charts, estimated high/low tides, moon phase, sunrise/sunset and a private catch journal. Forecasts are model estimates. Better/worse windows compare weather and daylight, not catch probability. Tide estimates do not replace official local tide tables.
+Choose a fishing location inside the dashboard, including a coastal destination while you are inland. Tides & moon has a seven-day selector, estimated high/low times, a tappable chart and hourly height/wind/wave detail. Forecast availability varies by location.
+
+Save private spots, catch photos and a car/launch return point. Compare days in Plan a trip, save trips, and open calendar event drafts for reminders. Save the event and select a reminder in your calendar app. The guide and offline-readiness view help prepare for a trip.
+
+Photos and notes stay on the phone unless you explicitly share or export them. Save individual photo copies or export a readable ZIP archive of notes and photos before uninstalling. ZIP export is not an in-app restore system.
+
+Forecasts are model estimates. Better/worse windows compare weather and daylight, not catch probability. Tide estimates are relative to mean sea level and do not replace official local tide tables or navigation charts. Driving directions follow roads, not waterways.
 
 ## Country data
 
