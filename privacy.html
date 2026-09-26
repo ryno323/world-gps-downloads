@@ -1,0 +1,44 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>World GPS — Privacy policy</title><meta name="description" content="World GPS navigation and fishing: support and privacy information."><style>*{box-sizing:border-box}body{margin:0;background:#f1f7f4;color:#153c34;font:17px/1.7 system-ui,sans-serif}header{background:#0b5844;color:#fff;padding:36px 24px}header div,main,footer{max-width:860px;margin:auto}header a{color:#fff}main{background:white;padding:36px 32px;margin:24px auto;border-radius:16px}h1{font-size:34px;line-height:1.15}h2{font-size:23px;margin-top:36px}a{color:#076044;text-underline-offset:3px;overflow-wrap:anywhere}li{margin:8px 0}footer{padding:24px;font-size:14px}nav{display:flex;gap:24px;flex-wrap:wrap}@media(max-width:600px){main{margin:0;border-radius:0;padding:24px}h1{font-size:29px}}</style></head><body><header><div><strong>WORLD GPS</strong><nav><a href="index.html">Home & support</a><a href="privacy.html">Privacy policy</a></nav></div></header><main><h1>World GPS privacy policy</h1>
+<p>Effective 26 September 2026. Publisher: Reynard Carelse. Contact: rcarelse@yahoo.com.</p>
+<p>This policy describes World GPS 1.0.7, the free, ad-free Android release. It has no user account, advertising SDK, analytics SDK or remote crash-reporting service. We do not sell personal information. The publisher does not operate a server receiving your GPS tracks, journal or photos.</p>
+<h2>Location and navigation</h2>
+<p>With your permission, World GPS uses approximate or precise location to centre the map, find nearby results and provide directions. You can browse without location permission and revoke it in Android settings.</p>
+<p>After the in-app online-navigation disclosure, online route calculations send the start and destination to FOSSGIS&#x27;s Valhalla service. Off-route recalculations send updated endpoints. Route following runs locally. Offline routing uses downloaded country road data on the phone.</p>
+<p>Navigation you start uses an Android foreground location service, allowing GPS and voice while the screen is off or another app is open. Android indicates the active service. Use Stop navigation to end it. No unrestricted background-location permission is requested. Ordinary map viewing stops location updates when the map activity pauses. Voice directions use the device&#x27;s text-to-speech engine.</p>
+<h2>Online providers</h2>
+<p>Providers receive requests directly from your phone and can receive its IP address and network information:</p>
+<ul>
+<li>OpenFreeMap receives requested map areas. Downloaded maps can be displayed locally instead.</li>
+<li>Photon (Komoot) receives manually submitted search text and the viewed map centre rounded to two decimal degrees. You can disable online search in the search dialog.</li>
+<li>FOSSGIS/Valhalla receives online route endpoints. Its published information says route requests are logged. We do not send a continuous GPS track.</li>
+<li>Open-Meteo receives the coordinates of the fishing forecast location you select, which may be your current location. It supplies weather and ocean-model data.</li>
+<li>Geofabrik receives optional country-map download requests; GitHub receives optional country-road-package requests. A fresh install includes no country maps or road archives.</li>
+</ul>
+<p>These independent providers have their own policies and retention practices, linked below. Free services can be limited or unavailable.</p>
+<h2>Journal, photos, saved places and sharing</h2>
+<p>Saved places, fishing pins, return points, trip plans, catch details, notes and selected photos stay in app-specific storage on your phone. This release has no community upload service. Photo selection uses Android&#x27;s file picker; the app does not upload photos or request access to the entire photo library. Catch records can include coordinates and condition snapshots.</p>
+<p>If you choose to share a photo, export your journal or create a calendar event, Android opens a chooser or draft. The destination app receives the content you choose to share, save or submit. Journal export may include coordinates, notes and photos. Export is a readable archive, not an automatic in-app restore system.</p>
+<p>The app&#x27;s Share button shares an app download link, or a test installer where appropriate. It does not include your location, journal or photos automatically. Its optional reminder uses a local foreground-time counter.</p>
+<h2>Retention and deletion</h2>
+<p>Downloads, saved places and journal content remain on your phone until removed or until you clear app storage/uninstall. Export important journal content first. Android cloud backup and automatic transfer are disabled for app data.</p>
+<p>The app keeps up to 60 search-response files for offline suggestions and up to 20 forecast-location cache files. Forecasts are normally reused for about 15 minutes. A labelled fallback up to six hours old can be used during a network failure. Older hours are not described as current. The optional country-download suggestion uses device locale or mobile-network country locally and never starts a download without your choice.</p>
+<p>Delete local data through Android Settings → Apps → World GPS → Storage. Uninstalling does not erase exported copies or data already processed by providers. Delete copies in their destination app and contact providers about their records. The publisher cannot remotely retrieve or delete files stored only on your phone.</p>
+<h2>Security and privacy requests</h2>
+<p>Online provider connections use HTTPS, and local files use Android app-specific storage. No method of transmission or storage can guarantee absolute security.</p>
+<p>World GPS is a general navigation and fishing utility, not an app designed specifically for children. It has no social messaging or account-registration feature. Contact rcarelse@yahoo.com with privacy questions or applicable access, correction or deletion requests concerning information held by the publisher. Most app content exists only on your device.</p>
+<h2>Earlier test builds and changes</h2>
+<p>Version 1.0.6 and explicitly enabled private ad-test builds contain Google Mobile Ads and Google&#x27;s User Messaging Platform using test ad IDs. Google&#x27;s SDK may process IP/general location, device identifiers, ad interactions and diagnostics. World GPS does not attach precise GPS coordinates, photos or notes to ad requests. These SDKs are absent from the normal 1.0.7 build.</p>
+<p>Future changes to advertising, community sharing, accounts or providers will require updated policies and in-app disclosures. This policy&#x27;s effective date identifies its latest revision.</p>
+<h2>Provider policies and credits</h2>
+<ul>
+<li><a href="https://openfreemap.org/privacy/">OpenFreeMap privacy</a></li>
+<li><a href="https://photon.komoot.io/">Photon service</a> and <a href="https://www.komoot.com/privacy">Komoot privacy</a></li>
+<li><a href="https://routing.openstreetmap.de/about.html">FOSSGIS routing information</a></li>
+<li><a href="https://open-meteo.com/en/terms">Open-Meteo terms and privacy</a></li>
+<li><a href="https://www.geofabrik.de/privacy.html">Geofabrik privacy</a></li>
+<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub privacy</a></li>
+<li><a href="https://policies.google.com/privacy">Google privacy, for earlier ad-test builds</a></li>
+<li>Map data: <a href="https://www.openstreetmap.org/copyright">© OpenStreetMap contributors</a>.</li>
+<li>Weather data: Open-Meteo and contributing services, CC BY 4.0. Charts and fishing windows process these forecasts; they are not catch guarantees or official navigation tide tables.</li>
+</ul>
+<p>This website is hosted by GitHub Pages, which processes website requests under GitHub&#x27;s policy. The website adds no analytics, ads or tracking cookies.</p></main><footer>Reynard Carelse · <a href="mailto:rcarelse@yahoo.com">rcarelse@yahoo.com</a><br>© OpenStreetMap contributors · Weather: Open-Meteo and contributing services.</footer></body></html>
